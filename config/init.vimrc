@@ -71,6 +71,8 @@ Plug 'pangloss/vim-javascript'
 " Plug 'fatih/vim-go'
 " elixir development plugin
 Plug 'elixir-lang/vim-elixir'
+" typescript
+Plug 'mhartington/nvim-typescript'
 " instant markdown preview
 Plug 'suan/vim-instant-markdown'
 " notes system
