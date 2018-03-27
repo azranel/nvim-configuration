@@ -20,7 +20,7 @@ Plug 'tpope/vim-projectionist' " required for some navigation features
 " status line
 Plug 'vim-airline/vim-airline'
 " colorscheme
-Plug 'tyrannicaltoucan/vim-quantum'
+Plug 'dracula/vim', { 'as': 'dracula' }
 " git diff
 Plug 'airblade/vim-gitgutter'
 " rails tools
