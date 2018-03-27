@@ -1,9 +1,8 @@
 " ----------------------------------------------------------------------------
 " Plugins configuration
 " ----------------------------------------------------------------------------
-" colorscheme and transparent background
+" colorscheme
 colorscheme dracula
-hi! Normal ctermbg=NONE guibg=NONE
 " Deoplete
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#enable_ignore_case = 1
