@@ -16,6 +16,7 @@ let g:neomake_elixir_enabled_makers = ['mix', 'credo']
 let g:neomake_open_list = 2
 " FZF
 set rtp+=/usr/local/opt/fzf
+let $FZF_DEFAULT_COMMAND='ag -g ""'
 " Alchemist
 let g:alchemist_tag_disable = 1
 " Rainbow Parentheses
