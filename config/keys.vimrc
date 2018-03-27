@@ -9,7 +9,8 @@ nnoremap U :UndotreeToggle<CR>
 nmap <Leader>e :Files<CR>
 nmap <Leader>c :Commands<CR>
 nmap <Leader>f :Ag<CR>
-nnoremap <F5> :Buffers<CR>
+nmap <Leader>t :Tags<CR>
+nnoremap <Leader>b :Buffers<CR>
 " vim-commentary
 map  gc  <Plug>Commentary
 nmap gcc <Plug>CommentaryLine
