@@ -62,15 +62,15 @@ Plug 'scrooloose/nerdtree'
 " undo explorer
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " dockerfile syntax highlight
-" Plug 'ekalinin/Dockerfile.vim'
+Plug 'ekalinin/Dockerfile.vim'
 " Javascript syntax and indentation
-" Plug 'pangloss/vim-javascript'
+Plug 'pangloss/vim-javascript'
 " react jsx syntax and indentation
 " Plug 'mxw/vim-jsx'
 " go development plugin
 " Plug 'fatih/vim-go'
 " elixir development plugin
-" Plug 'elixir-lang/vim-elixir'
+Plug 'elixir-lang/vim-elixir'
 " instant markdown preview
 Plug 'suan/vim-instant-markdown'
 " notes system
@@ -80,4 +80,6 @@ Plug 'suan/vim-instant-markdown'
 Plug 'ntpeters/vim-better-whitespace'
 " multiple language support
 Plug 'sheerun/vim-polyglot'
+" emmet
+Plug 'mattn/emmet-vim'
 call plug#end()
