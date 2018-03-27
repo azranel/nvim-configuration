@@ -25,4 +25,4 @@ nnoremap <Leader>q :bd!<CR>
 " Leave terminal insert mode using ESC
 tnoremap <Esc> <C-\><C-n>
 " shortcut for small terminal window
-nnoremap <leader>o :below 10sp term://$SHELL<cr>i
+nnoremap <leader>` :below 10sp term://$SHELL<cr>i
