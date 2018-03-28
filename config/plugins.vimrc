@@ -12,7 +12,6 @@ let g:context_filetype#same_filetypes._ = '_'
 " Neomake
 autocmd! BufWritePost * Neomake
 let g:neomake_elixir_enabled_makers = ['mix', 'credo']
-let g:neomake_open_list = 2
 " FZF
 set rtp+=/usr/local/opt/fzf
 let $FZF_DEFAULT_COMMAND='ag -g ""'
