@@ -39,3 +39,5 @@ autocmd BufEnter * EnableStripWhitespaceOnSave
 " Markdown
 let g:instant_markdown_slow = 1
 let g:instant_markdown_allow_unsafe_content = 1
+" generate async ctags on save
+autocmd BufWritePost * NeomakeSh ctags
