@@ -41,3 +41,5 @@ let g:instant_markdown_slow = 1
 let g:instant_markdown_allow_unsafe_content = 1
 " generate async ctags on save
 autocmd BufWritePost * NeomakeSh ctags
+" format terrafom on save
+let g:terraform_fmt_on_save=1

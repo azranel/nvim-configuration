@@ -34,9 +34,9 @@ Plug 'tpope/vim-surround'
 " easy task repetition
 Plug 'tpope/vim-repeat'
 " config for ruby
-" Plug 'vim-ruby/vim-ruby'
+Plug 'vim-ruby/vim-ruby'
 " fuzzy search
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 " coloring parentheses
 Plug 'junegunn/rainbow_parentheses.vim'
@@ -68,11 +68,7 @@ Plug 'pangloss/vim-javascript'
 " react jsx syntax and indentation
 " Plug 'mxw/vim-jsx'
 " go development plugin
-" Plug 'fatih/vim-go'
-" elixir development plugin
-Plug 'elixir-lang/vim-elixir'
-" typescript
-Plug 'mhartington/nvim-typescript'
+Plug 'fatih/vim-go'
 " instant markdown preview
 Plug 'suan/vim-instant-markdown'
 " notes system
@@ -84,4 +80,6 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'sheerun/vim-polyglot'
 " emmet
 Plug 'mattn/emmet-vim'
+" terraform
+Plug 'hashivim/vim-terraform'
 call plug#end()
