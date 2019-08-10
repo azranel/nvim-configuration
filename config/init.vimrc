@@ -84,4 +84,6 @@ Plug 'mattn/emmet-vim'
 Plug 'hashivim/vim-terraform'
 " vim-test
 Plug 'janko/vim-test'
+" intellisense
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
