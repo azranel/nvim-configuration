@@ -82,4 +82,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 " terraform
 Plug 'hashivim/vim-terraform'
+" vim-test
+Plug 'janko/vim-test'
 call plug#end()
