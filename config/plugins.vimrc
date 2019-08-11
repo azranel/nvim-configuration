@@ -43,3 +43,5 @@ let g:instant_markdown_allow_unsafe_content = 1
 autocmd BufWritePost * NeomakeSh ctags
 " format terrafom on save
 let g:terraform_fmt_on_save=1
+" format elixir on save
+let g:mix_format_on_save = 1

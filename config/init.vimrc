@@ -14,6 +14,7 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'neomake/neomake'
 " elixir Integration
 Plug 'slashmili/alchemist.vim'
+Plug 'mhinz/vim-mix-format'
 " phoenix
 Plug 'c-brenn/phoenix.vim'
 Plug 'tpope/vim-projectionist' " required for some navigation features
