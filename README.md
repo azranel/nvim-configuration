@@ -6,6 +6,12 @@ I would also like to thank all of the plugin creators and the [Junegunn](https:/
 
 ## How to install
 
+Install all needed stuff:
+
+```bash
+./install.sh
+```
+
 Below command should do the trick:
 
 ```bash
