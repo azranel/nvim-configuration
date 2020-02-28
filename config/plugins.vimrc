@@ -45,3 +45,5 @@ autocmd BufWritePost * NeomakeSh ctags
 let g:terraform_fmt_on_save=1
 " format elixir on save
 let g:mix_format_on_save = 1
+" any-jump
+let g:any_jump_search_prefered_engine = 'ag'

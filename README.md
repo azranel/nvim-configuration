@@ -4,6 +4,10 @@ This configuration is divided into couple files, to keep everything clean.
 
 I would also like to thank all of the plugin creators and the [Junegunn](https://github.com/junegunn) specifically for his dotfiles (and for zoom function)
 
+## Requirements
+
+Neovim with version newer than 0.4.0
+
 ## How to install
 
 Install all needed stuff:

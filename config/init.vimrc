@@ -87,4 +87,6 @@ Plug 'hashivim/vim-terraform'
 Plug 'janko/vim-test'
 " intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plugin to find files
+Plug 'pechorin/any-jump.nvim'
 call plug#end()
