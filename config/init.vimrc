@@ -4,20 +4,10 @@
 call plug#begin('~/.vim/plugged')
 " synchronous keyword completion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" autocompletion for Python
-Plug 'zchee/deoplete-jedi'
-" autocompletion for JS
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
-" autocompletion for Golang
-Plug 'zchee/deoplete-go', { 'do': 'make'}
+" Plugin for intergrations
+Plug 'sheerun/vim-polyglot'
 " asynchronous keyword completion
 Plug 'neomake/neomake'
-" elixir Integration
-Plug 'slashmili/alchemist.vim'
-Plug 'mhinz/vim-mix-format'
-" phoenix
-Plug 'c-brenn/phoenix.vim'
-Plug 'tpope/vim-projectionist' " required for some navigation features
 " status line
 Plug 'vim-airline/vim-airline'
 " colorscheme
@@ -34,8 +24,6 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 " easy task repetition
 Plug 'tpope/vim-repeat'
-" config for ruby
-Plug 'vim-ruby/vim-ruby'
 " fuzzy search
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
@@ -43,8 +31,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
 " search improval
 Plug 'junegunn/vim-slash'
-" distraction free writing
-Plug 'junegunn/goyo.vim'
 " highlighting current section
 Plug 'junegunn/limelight.vim'
 " easy substitution
@@ -62,23 +48,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
 " undo explorer
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
-" dockerfile syntax highlight
-Plug 'ekalinin/Dockerfile.vim'
-" Javascript syntax and indentation
-Plug 'pangloss/vim-javascript'
-" react jsx syntax and indentation
-" Plug 'mxw/vim-jsx'
-" go development plugin
-Plug 'fatih/vim-go'
-" instant markdown preview
-Plug 'suan/vim-instant-markdown'
-" notes system
-" Plug 'xolox/vim-notes'
-" Plug 'xolox/vim-misc'
 " whitespace highlight and remove
 Plug 'ntpeters/vim-better-whitespace'
-" multiple language support
-Plug 'sheerun/vim-polyglot'
 " emmet
 Plug 'mattn/emmet-vim'
 " terraform
