@@ -2,7 +2,7 @@
 " Key mapping
 " ----------------------------------------------------------------------------
 " NERDTree
-map <F3> :NERDTreeToggle<CR>
+nmap <Leader>T :NERDTreeToggle<CR>
 " UndoTree
 nnoremap U :UndotreeToggle<CR>
 " FZF
