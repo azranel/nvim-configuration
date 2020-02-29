@@ -22,6 +22,8 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-commentary'
 " easy changing quoting/parenthesizing
 Plug 'tpope/vim-surround'
+" multiple cursors
+Plug 'terryma/vim-multiple-cursors'
 " easy task repetition
 Plug 'tpope/vim-repeat'
 " fuzzy search
