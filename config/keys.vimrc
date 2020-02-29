@@ -8,7 +8,7 @@ nnoremap U :UndotreeToggle<CR>
 " FZF
 nmap <Leader>e :Files<CR>
 nmap <Leader>c :Commands<CR>
-nmap <Leader>f :Ag<CR>
+nmap <Leader>f :Rg<CR>
 nmap <Leader>t :Tags<CR>
 nnoremap <Leader>b :Buffers<CR>
 " vim-test — these "Ctrl mappings" work well when Caps Lock is mapped to Ctrl
