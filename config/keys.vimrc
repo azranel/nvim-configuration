@@ -20,8 +20,6 @@ nmap <silent> t<C-g> :TestVisit<CR>
 " vim-commentary
 map  gc  <Plug>Commentary
 nmap gcc <Plug>CommentaryLine
-" Goyo
-nnoremap <Leader>G :Goyo<CR>
 " Other
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
