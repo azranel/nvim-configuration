@@ -62,4 +62,6 @@ Plug 'janko/vim-test'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plugin to find files
 Plug 'pechorin/any-jump.nvim'
+" Search and replace
+Plug 'brooth/far.vim'
 call plug#end()

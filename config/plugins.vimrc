@@ -61,3 +61,5 @@ func! Multiple_cursors_after()
     call deoplete#enable()
   endif
 endfunc
+" far.vim
+let g:far#source = 'rg'
