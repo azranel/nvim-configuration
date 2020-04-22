@@ -63,3 +63,6 @@ func! Multiple_cursors_after()
 endfunc
 " far.vim
 let g:far#source = 'rg'
+" vim-easygrep
+set grepprg=ag
+let g:EasyGrepCommand=1

@@ -64,4 +64,5 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'pechorin/any-jump.nvim'
 " Search and replace
 Plug 'brooth/far.vim'
+Plug 'dkprice/vim-easygrep'
 call plug#end()
