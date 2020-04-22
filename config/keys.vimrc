@@ -17,6 +17,11 @@ nmap <silent> t<C-f> :TestFile<CR>
 nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
+
+" vim-rails
+nmap <silent> r<C-a>a :A<CR>
+nmap <silent> r<C-a>v :AV<CR>
+
 " vim-commentary
 map  gc  <Plug>Commentary
 nmap gcc <Plug>CommentaryLine
