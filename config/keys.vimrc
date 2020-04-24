@@ -12,13 +12,13 @@ nmap <Leader>f :Rg<CR>
 nmap <Leader>o :Tags<CR>
 nnoremap <Leader>b :Buffers<CR>
 " vim-test — these "Ctrl mappings" work well when Caps Lock is mapped to Ctrl
-nmap <Leader> l :TestNearest<CR>
-nmap <Leader> t :TestFile<CR>
+nmap <Leader>l :TestNearest<CR>
+nmap <Leader>t :TestFile<CR>
 
 " vim-rails
-nmap <Leader> maa :A<CR>
-nmap <Leader> mav :AV<CR>
-nmap <Leader> mah :AH<CR>
+nmap <Leader>maa :A<CR>
+nmap <Leader>mav :AV<CR>
+nmap <Leader>mah :AH<CR>
 
 " vim-commentary
 map  gc  <Plug>Commentary
