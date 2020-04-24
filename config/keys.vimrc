@@ -9,18 +9,16 @@ nnoremap U :UndotreeToggle<CR>
 nmap <Leader>e :Files<CR>
 nmap <Leader>c :Commands<CR>
 nmap <Leader>f :Rg<CR>
-nmap <Leader>t :Tags<CR>
+nmap <Leader>o :Tags<CR>
 nnoremap <Leader>b :Buffers<CR>
 " vim-test — these "Ctrl mappings" work well when Caps Lock is mapped to Ctrl
-nmap <silent> t<C-n> :TestNearest<CR>
-nmap <silent> t<C-f> :TestFile<CR>
-nmap <silent> t<C-s> :TestSuite<CR>
-nmap <silent> t<C-l> :TestLast<CR>
-nmap <silent> t<C-g> :TestVisit<CR>
+nmap <Leader> l :TestNearest<CR>
+nmap <Leader> t :TestFile<CR>
 
 " vim-rails
-nmap <silent> r<C-a>a :A<CR>
-nmap <silent> r<C-a>v :AV<CR>
+nmap <Leader> maa :A<CR>
+nmap <Leader> mav :AV<CR>
+nmap <Leader> mah :AH<CR>
 
 " vim-commentary
 map  gc  <Plug>Commentary
