@@ -1,6 +1,11 @@
 " ----------------------------------------------------------------------------
 " Key mapping
 " ----------------------------------------------------------------------------
+" disable arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 " NERDTree
 nmap <Leader>T :NERDTreeToggle<CR>
 " UndoTree
