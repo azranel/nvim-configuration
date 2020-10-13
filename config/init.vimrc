@@ -2,8 +2,6 @@
 " Plugins list
 " ----------------------------------------------------------------------------
 call plug#begin('~/.vim/plugged')
-" synchronous keyword completion
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " Plugin for intergrations
 Plug 'sheerun/vim-polyglot'
 " asynchronous keyword completion

@@ -3,12 +3,6 @@
 " ----------------------------------------------------------------------------
 " colorscheme
 colorscheme dracula
-" Deoplete
-let g:deoplete#enable_at_startup = 1
-let g:deoplete#enable_ignore_case = 1
-let g:deoplete#enable_smart_case = 1
-let g:context_filetype#same_filetypes = {}
-let g:context_filetype#same_filetypes._ = '_'
 " Neomake
 autocmd! BufWritePost * Neomake
 let g:neomake_elixir_enabled_makers = ['mix', 'credo']
